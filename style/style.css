@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #34373E;
+    /* width: auto; */
+    height: auto;
+    padding: 45px 100px 35px 100px;
+    /* position: absolute; */
+}
+.LogoManu{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.Cashify{
+    color: #fff;
+    font-size: 28px;
+    font-family: emoji;
+    font-weight: bold;
+}
+.Manu{
+    list-style-type: none;
+    display: flex;
+    gap: 55px;
+    color: #fff;
+    font-size: 15px;
+    font-family: emoji;
+    opacity: 80%;
+}
+.HeadMain{
+    margin-top: 35px;
+    display: flex;
+    
+}
+.Description{
+    width: auto;
+    max-width: 525px;
+    margin-bottom: 35px;
+}
+.Description h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 15px;
+    font-family: emoji;
+    
+    
+    
+}
+.Description p{
+    padding-top: 25px;
+    color: #fff;
+    opacity: 80%;
+    margin-bottom: 30px;
+    font-family: emoji;
+    
+}
+
+.Buttons{
+    display: flex;
+    gap: 40px;
+   
+}
+
+.JoinNow{
+    width: 160px;
+    height: 55px;
+    border-radius: 60px;
+    display: flex;
+    background-color: #D84B4B;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    border: none;
+    font-size: 18px;
+   
+}
+.Demo{
+    color: #fff;
+    width: 160px;
+    height: 55px;
+    background-color: #6A8BD6;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+
+}
+
+.Img{
+    width: auto;
+    max-width: 755px;
+    height: 420px;
+    /* position: relative; */
+}
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.whole{
+    display: flex;
+    justify-content: center;
+}
+
+.Box1{
+    width: auto;
+    max-width: 1060px;
+    height: auto;
+    margin: 30px 65px 110px 70px;
+}
+.Box1Head h1{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-family: serif;
+}
+.Box1Head p{
+    font-size: 18px;
+    color: #6C7280;
+    font-family: serif;
+    text-align: center;
+    padding-top: 10px;
+}
+.Threebox{
+    display: flex;
+    gap: 275px;
+    margin-top: 50px
+}
+.Three{
+    
+    width: 170px;
+    height: 160px;
+   
+}
+
+.Three .Big{
+    font-size: 20px;
+    font-weight: bold;
+    color: #34373E;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.Three .Small{
+    font-size: 16px;
+    color: #6C7280;
+    margin-top: 11px;
+    text-align: center;
+}
+.Img1{
+    align-items: center;
+    text-align: center;
+}
+.Line{
+    border-bottom: 2px solid #cbc8c8;
+    opacity: 60%;
+    border-bottom-style: dashed ;
+    margin-bottom: 90px;
+    width: 100%;
+    
+   
+    margin-right: 100px;
+}
+.whole2{
+    display: flex;
+    justify-content: center;
+}
+.Box2{
+    width: auto;
+    max-width: 1110px;
+    height: auto;
+    margin: 90px 45px 100px 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Box2Head h1{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-family: serif;
+}
+.Box2Head p{
+    font-size: 18px;
+    color: #6C7280;
+    font-family: serif;
+    text-align: center;
+    padding-top: 10px;
+}
+.FourBox{
+    display: flex;
+    gap: 60px;
+    margin-top: 66px
+}
+.Fourbox{
+    margin: 65px 145px;
+    width: auto;
+    max-width: 1100px;
+    align-items: center;
+    text-align: center;
+
+   
+}
+.EachBox{
+    max-width: 230px;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px #0000003C; 
+    border-radius: 2px;
+    line-height: 30px;
+}
+
+.EachBoxHead{
+    height: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+background: rgb(247,247,247);
+background: linear-gradient(5deg, rgba(247,247,247,1) 0%, rgba(245,245,245,1) 35%);
+    font-family: serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.EachBox:hover .EachBoxHead{
+    background: rgb(106,139,214);
+    background: linear-gradient(4deg, rgba(106,139,214,1) 0%, rgba(132,165,242,1) 35%);
+}
+
+.EachBox:hover{
+    box-shadow: 0px 2px 29px #0000003C;
+}
+
+
+
+.List{
+    width: 120px;
+    height: 120px;
+    margin: 30px 55px;
+    align-items: center;
+    
+}
+.List p{
+    /* margin-bottom: 5px; */
+    font-family: serif;
+    font-size: 15px;
+}
+.Dollar{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px 80px;
+}
+.BuyNow{
+    width: 120px;
+    height: 40px;
+    background-color: #D84B4B;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: #fff;
+}
+.whole3{
+    display: flex;
+    justify-content: center;
+}
+
+.Box3{
+    display:flex ;
+    justify-content: center;
+    width: 980px;
+    height: auto;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.Text{
+    width: auto;
+    max-width: 530px;
+    margin-right: 165px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.Text h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34373E;
+    font-family: serif;
+    width: 365px;
+}
+.Text .firstp{
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #6C7280;
+    font-family: serif;
+}
+.Text .secondp{
+    font-size: 15px;
+    color: #6C7280;
+    font-family: serif;
+    width: auto;
+    max-width: 365px;
+}
+
+.Form .Form1{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    /* padding-left: 20px; */
+    color: #9DA5B7;
+    opacity: 80%;
+    margin-bottom: 20px;
+}
+.Form .Message{
+    width: 100%;
+    height: 160px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    /* padding-left: 20px; */
+    color: #9DA5B7;
+    opacity: 80%;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+.Form .Send{
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #6A8BD6;
+    border: none;
+    color: #fff;
+    font-family: serif;
+}
+
+.Form{
+    width: auto;
+    max-width: 410px;
+    background-color: #FAFAFA;
+    height: auto;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+footer{
+    background-color: #D84B4B;
+    width: 100%;
+    height: auto;
+}
+.LogoManu2{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    text-align: center;
+    align-items: center; 
+    font-family: serif;
+}
+.Social{
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media only screen and (max-width: 1600px){
+    
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+
+    Header{
+        padding-left: 5%;
+    }
+    .LogoManu .Manu{
+        gap: 15%;
+        font-size: 12px;
+    }
+    .Cashify{
+        font-size: 20px;
+    }
+    .HeadMain .Img{
+        display: none;
+    }
+    .Description{
+        max-width: 90%;
+    }
+    .Description h1 {
+        font-size: 235%;
+    }
+    .Description p{
+        font-size: 85%;
+    }
+    .Buttons{
+        gap: 20px;
+    }
+    .Buttons .Button{
+        font-size: 70%;
+        width: 140px;
+    }
+   main{
+    padding: 5%;
+    
+   }
+   
+    .Box1Head h1 {
+        font-size: 145%;
+    }
+    .Box1Head p{
+        font-size: 85%;
+    }
+    .Three{
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+    .Threebox{
+        display: block;
+        width: auto;
+    }
+    .Three .Big{
+        font-size: 18px;
+    }
+    .Three .Small{
+        font-size: 12px;
+    }
+    .FourBox{
+        flex-wrap: wrap;
+
+    }
+    .EachBox{
+        margin: 0 auto;
+    }
+    .Box3{
+        display: block;
+    }
+    .Form1{
+        width: 100%;
+        padding-left: 0px;
+
+
+    }
+    .Message{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .Text{
+        margin: 0 auto;
+        width: auto;
+    }
+    .Form{
+    
+    margin-top: 50px;
+    max-width: 80%;
+    width: 200px;
+    }
+    .Send{
+        width: 100%;
+    }
+    .Box3 .Text h1{
+        font-size: 145%;
+    }
+    .Box3 .Text p{
+        font-size: 80%;
+        max-width: 280px;
+    }
+    .whole3{
+        padding-left: 30%;
+    }
+    
+    footer{
+      
+    }
+    .LogoManu2 .Manu{
+        display: none;
+    }
+    .LogoManu2{
+  padding: 10%;
+    }
+   .Twitter{
+    width: 40px;
+   }
+   .Facebook{
+    width: 40px;
+   }
+
+}
+    
